@@ -1,0 +1,127 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "b170d29768194e60844923bad85f8545"
+  OwnerAccountId: "ef2d72193bfe4500ac582262fd9bc5f8"
+  OwnerName: "CealumSkye"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 243148115587592915
+  value: 6931503497915910368
+}
+AssetIdsOriginalToNew {
+  key: 277989622550918687
+  value: 1161976553063630961
+}
+AssetIdsOriginalToNew {
+  key: 367849408127295189
+  value: 5750889262074581359
+}
+AssetIdsOriginalToNew {
+  key: 1686480914787387494
+  value: 8510412324596218920
+}
+AssetIdsOriginalToNew {
+  key: 2168032505011421943
+  value: 16373326972119588988
+}
+AssetIdsOriginalToNew {
+  key: 2400592610047992342
+  value: 6715843242061244993
+}
+AssetIdsOriginalToNew {
+  key: 2982080616943249704
+  value: 18065177001204946053
+}
+AssetIdsOriginalToNew {
+  key: 3288861609776788380
+  value: 3375846948964857413
+}
+AssetIdsOriginalToNew {
+  key: 3417809189971193161
+  value: 3457010064473306766
+}
+AssetIdsOriginalToNew {
+  key: 3998638132276191647
+  value: 16054808862299845684
+}
+AssetIdsOriginalToNew {
+  key: 6016250621096913508
+  value: 14847696275993473198
+}
+AssetIdsOriginalToNew {
+  key: 6505270991789262336
+  value: 5607280541983342161
+}
+AssetIdsOriginalToNew {
+  key: 6936613665805280283
+  value: 11769683982161783223
+}
+AssetIdsOriginalToNew {
+  key: 7505873330541122868
+  value: 6714125743847001180
+}
+AssetIdsOriginalToNew {
+  key: 7573180487871944164
+  value: 11646139489640519138
+}
+AssetIdsOriginalToNew {
+  key: 8181950577634768784
+  value: 17771772451901109842
+}
+AssetIdsOriginalToNew {
+  key: 8270878290141506824
+  value: 14081526317154228286
+}
+AssetIdsOriginalToNew {
+  key: 8401372903166634897
+  value: 1365593106037911542
+}
+AssetIdsOriginalToNew {
+  key: 8670518976317636818
+  value: 17042361908842853547
+}
+AssetIdsOriginalToNew {
+  key: 9074186147666936558
+  value: 3034892671072314011
+}
+AssetIdsOriginalToNew {
+  key: 9786251179376569905
+  value: 7066549588640280926
+}
+AssetIdsOriginalToNew {
+  key: 10266160530684208924
+  value: 7765448226058200956
+}
+AssetIdsOriginalToNew {
+  key: 10955117860648898395
+  value: 2002462249894620697
+}
+AssetIdsOriginalToNew {
+  key: 11038964574708362156
+  value: 8692589843141988401
+}
+AssetIdsOriginalToNew {
+  key: 14511255362936530435
+  value: 15684347597177649053
+}
+AssetIdsOriginalToNew {
+  key: 14799874915989414309
+  value: 402470319354952160
+}
+AssetIdsOriginalToNew {
+  key: 15804996948595455113
+  value: 7095598318056685424
+}
+AssetIdsOriginalToNew {
+  key: 16701753890607188605
+  value: 2162367658196056499
+}
+AssetIdsOriginalToNew {
+  key: 17184613869809534666
+  value: 470618346952129807
+}
+AssetIdsOriginalToNew {
+  key: 17975553889889162604
+  value: 14505602379243388252
+}
