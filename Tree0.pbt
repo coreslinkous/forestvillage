@@ -26,7 +26,7 @@ Objects {
   ChildIds: 4064845019836685989
   ChildIds: 17252287404099537094
   ChildIds: 5785484713229504763
-  ChildIds: 3938662039238788851
+  ChildIds: 17932590685941861315
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,16 +39,346 @@ Objects {
   }
 }
 Objects {
-  Id: 3938662039238788851
+  Id: 17932590685941861315
   Name: "Ladder"
   Transform {
+    Location {
+      X: -6576.59033
+      Y: -50.3044434
+      Z: 1724.11914
+    }
+    Rotation {
+      Pitch: 0.555512905
+      Yaw: -125.490051
+      Roll: 9.12937927
+    }
+    Scale {
+      X: 0.98197639
+      Y: 0.98197639
+      Z: 0.98197639
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 16619644327262720929
+  ChildIds: 13972684003861629351
+  ChildIds: 2646352634990350405
+  ChildIds: 5009250904992800568
+  ChildIds: 10583052892817563340
+  ChildIds: 2621894301053839101
+  ChildIds: 3896576359467107767
+  ChildIds: 8135846759734516428
+  ChildIds: 12189722697091495025
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Duration"
+      Float: 0.5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17932590685941861315
+    SubobjectId: 4898116240584997762
+    InstanceId: 3938662039238788851
+    TemplateId: 15238766237165574161
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 12189722697091495025
+  Name: "Platform"
+  Transform {
+    Location {
+      X: 32.8323822
+      Y: -92.2587891
+      Z: 381.114624
+    }
+    Rotation {
+      Yaw: -3.07477117
+    }
+    Scale {
+      X: 0.792994499
+      Y: 1.00000036
+      Z: 0.0603857599
+    }
+  }
+  ParentId: 17932590685941861315
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4903499742970695079
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12189722697091495025
+    SubobjectId: 1301081549806978096
+    InstanceId: 3938662039238788851
+    TemplateId: 15238766237165574161
+  }
+}
+Objects {
+  Id: 8135846759734516428
+  Name: "End"
+  Transform {
+    Location {
+      X: 32.8323822
+      Y: -92.2587891
+      Z: 381.114624
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 17932590685941861315
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 8135846759734516428
+    SubobjectId: 14685274622284655245
+    InstanceId: 3938662039238788851
+    TemplateId: 15238766237165574161
+  }
+}
+Objects {
+  Id: 3896576359467107767
+  Name: "Start"
+  Transform {
+    Location {
+      X: 32.8323822
+      Y: 25.5981445
+      Z: -7.73584
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17932590685941861315
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 3896576359467107767
+    SubobjectId: 10175792643579065846
+    InstanceId: 3938662039238788851
+    TemplateId: 15238766237165574161
+  }
+}
+Objects {
+  Id: 2621894301053839101
+  Name: "Craftsman Porch Fence Railing 01"
+  Transform {
+    Location {
+      X: -33.1137848
+    }
+    Rotation {
+      Pitch: 74.9737091
+      Yaw: -89.9992294
+      Roll: 90.0003662
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17932590685941861315
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Accent:color"
+      Color {
+        R: 0.417885065
+        G: 0.238397554
+        B: 0.0307134464
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.417885065
+        G: 0.238397554
+        B: 0.0307134464
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9536141319314062468
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 2621894301053839101
+    SubobjectId: 11476878337721734844
+    InstanceId: 3938662039238788851
+    TemplateId: 15238766237165574161
+  }
+}
+Objects {
+  Id: 10583052892817563340
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 33.1139526
+      Y: -11.5444336
+      Z: 65.2492676
+    }
+    Rotation {
+      Pitch: 74.9736481
+      Yaw: -89.9992065
+      Roll: 90.0003128
+    }
+    Scale {
+      X: 0.999997795
+      Y: 0.328609586
+      Z: 0.740370452
+    }
+  }
+  ParentId: 17932590685941861315
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 10583052892817563340
+    SubobjectId: 3024809796829671053
+    InstanceId: 3938662039238788851
+    TemplateId: 15238766237165574161
+  }
+}
+Objects {
+  Id: 5009250904992800568
+  Name: "LadderElevator"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17932590685941861315
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14398292846880983310
+    }
+  }
+  InstanceHistory {
+    SelfId: 5009250904992800568
+    SubobjectId: 18347851641451884409
+    InstanceId: 3938662039238788851
+    TemplateId: 15238766237165574161
+  }
+}
+Objects {
+  Id: 2646352634990350405
+  Name: "Ladder"
+  Transform {
+    Location {
+      X: -6449.22559
+      Y: -253.387985
+      Z: 2113.34619
+    }
+    Rotation {
+      Pitch: 0.555512905
+      Yaw: -125.490051
+      Roll: 9.1294775
+    }
+    Scale {
+      X: 0.98197639
+      Y: 0.98197639
+      Z: 0.98197639
+    }
+  }
+  ParentId: 17932590685941861315
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77,17 +407,175 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6793.66
-            Y: -18.7848816
-            Z: 1599.87866
+            X: -3.13606739
+            Y: -312.580353
+            Z: 1150.97314
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 0.555512905
-            Yaw: -89.9519348
-            Roll: 9.128932
+            Roll: 0.000253997685
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15238766237165574161
+    }
+  }
+}
+Objects {
+  Id: 13972684003861629351
+  Name: "Ladder"
+  Transform {
+    Location {
+      X: -6416.13525
+      Y: -280.78009
+      Z: 1724.11914
+    }
+    Rotation {
+      Pitch: 0.555512905
+      Yaw: -125.490051
+      Roll: 9.12936687
+    }
+    Scale {
+      X: 0.98197639
+      Y: 0.98197639
+      Z: 0.98197639
+    }
+  }
+  ParentId: 17932590685941861315
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1301081549806978096
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4898116240584997762
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ladder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3.83035898
+            Y: -206.609283
+            Z: 766.534241
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 3.41509531e-06
+            Roll: 0.000145568411
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15238766237165574161
+    }
+  }
+}
+Objects {
+  Id: 16619644327262720929
+  Name: "Ladder"
+  Transform {
+    Location {
+      X: -6416.13525
+      Y: -280.78009
+      Z: 1724.11914
+    }
+    Rotation {
+      Pitch: 0.555512905
+      Yaw: -125.490051
+      Roll: 9.12936687
+    }
+    Scale {
+      X: 0.98197639
+      Y: 0.98197639
+      Z: 0.98197639
+    }
+  }
+  ParentId: 17932590685941861315
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1301081549806978096
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4898116240584997762
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ladder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 0.694237232
+            Y: -105.971062
+            Z: 384.439026
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 4.07110977e-13
+            Roll: 0.000109283021
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
