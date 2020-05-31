@@ -16,6 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 8891894354848501241
         ChildIds: 12829866477206456101
         ChildIds: 18155045905674854286
         ChildIds: 18181846975243713201
@@ -27,6 +28,46 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 8891894354848501241
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: 133.798325
+            Y: 34.4387245
+            Z: 1434.86975
+          }
+          Rotation {
+            Yaw: -17.1745071
+          }
+          Scale {
+            X: 12.0826368
+            Y: 11.4272232
+            Z: 0.123432629
+          }
+        }
+        ParentId: 18437596461839518871
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10112144302151411791
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
         }
       }
       Objects {
@@ -1048,6 +1089,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 10112144302151411791
+      Name: "Cylinder"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_002"
       }
     }
     Assets {
